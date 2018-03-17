@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<compiz_session id="10947216b2128df272152130526645118700000018730046">
+  <window id="10947216b2128df272152130528344068500000018730049" title="Ruby on Rails - Mozilla Firefox" class="Firefox" name="Navigator" role="browser" command="firefox">
+    <geometry x="65" y="-4" width="879" height="952"/>
+    <minimized/>
+    <maximized vert="yes"/>
+    <workspace index="0"/>
+  </window>
+</compiz_session>

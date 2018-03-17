@@ -1,0 +1,76 @@
+[2018-03-17 20:56:09] requirements_debian_libs_install
+requirements_debian_libs_install () 
+{ 
+    __rvm_try_sudo apt-get --no-install-recommends --yes install "$@" || return $?
+}
+current path: /home/max
+PATH=/home/max/bin:/home/max/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/max/.rvm/bin
+command(6): requirements_debian_libs_install gawk libgmp-dev libgdbm-dev libffi-dev libgmp-dev
+++ __rvm_try_sudo apt-get --no-install-recommends --yes install gawk libgmp-dev libgdbm-dev libffi-dev libgmp-dev
+++ typeset -a command_to_run
+++ typeset sudo_path sbin_path missing_paths
+++ command_to_run=("$@")
+++ ((  UID == 0  ))
+++ case "$rvm_autolibs_flag_number" in
+++ is_a_function __rvm_sudo
+++ typeset -f __rvm_sudo
+++ missing_paths=
+++ for sbin_path in /sbin /usr/sbin /usr/local/sbin
+++ [[ -d /sbin ]]
+++ [[ :/home/max/bin:/home/max/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/max/.rvm/bin: != *\:\/\s\b\i\n\:* ]]
+++ for sbin_path in /sbin /usr/sbin /usr/local/sbin
+++ [[ -d /usr/sbin ]]
+++ [[ :/home/max/bin:/home/max/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/max/.rvm/bin: != *\:\/\u\s\r\/\s\b\i\n\:* ]]
+++ for sbin_path in /sbin /usr/sbin /usr/local/sbin
+++ [[ -d /usr/local/sbin ]]
+++ [[ :/home/max/bin:/home/max/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/max/.rvm/bin: != *\:\/\u\s\r\/\l\o\c\a\l\/\s\b\i\n\:* ]]
+++ [[ -n '' ]]
+++ command_to_run=(__rvm_sudo -p "%p password required for '$*': " "${command_to_run[@]}")
+++ __rvm_sudo -p '%p password required for '\''apt-get --no-install-recommends --yes install gawk libgmp-dev libgdbm-dev libffi-dev libgmp-dev'\'': ' apt-get --no-install-recommends --yes install gawk libgmp-dev libgdbm-dev libffi-dev libgmp-dev
+++ command sudo -p '%p password required for '\''apt-get --no-install-recommends --yes install gawk libgmp-dev libgdbm-dev libffi-dev libgmp-dev'\'': ' apt-get --no-install-recommends --yes install gawk libgmp-dev libgdbm-dev libffi-dev libgmp-dev
+++ sudo -p '%p password required for '\''apt-get --no-install-recommends --yes install gawk libgmp-dev libgdbm-dev libffi-dev libgmp-dev'\'': ' apt-get --no-install-recommends --yes install gawk libgmp-dev libgdbm-dev libffi-dev libgmp-dev
+Чтение списков пакетов…
+Построение дерева зависимостей…
+Чтение информации о состоянии…
+Будут установлены следующие дополнительные пакеты:
+  libgmpxx4ldbl
+Предлагаемые пакеты:
+  gawk-doc gmp-doc libgmp10-doc libmpfr-dev
+НОВЫЕ пакеты, которые будут установлены:
+  gawk libffi-dev libgdbm-dev libgmp-dev libgmpxx4ldbl
+обновлено 0, установлено 5 новых пакетов, для удаления отмечено 0 пакетов, и 38 пакетов не обновлено.
+Необходимо скачать 918 kБ архивов.
+После данной операции, объём занятого дискового пространства возрастёт на 3 772 kB.
+Пол:1 http://ru.archive.ubuntu.com/ubuntu xenial/main amd64 gawk amd64 1:4.1.3+dfsg-0.1 [398 kB]
+Пол:2 http://ru.archive.ubuntu.com/ubuntu xenial/main amd64 libgdbm-dev amd64 1.8.3-13.1 [35,9 kB]
+Пол:3 http://ru.archive.ubuntu.com/ubuntu xenial/main amd64 libgmpxx4ldbl amd64 2:6.1.0+dfsg-2 [8 948 B]
+Пол:4 http://ru.archive.ubuntu.com/ubuntu xenial/main amd64 libgmp-dev amd64 2:6.1.0+dfsg-2 [314 kB]
+Пол:5 http://ru.archive.ubuntu.com/ubuntu xenial/main amd64 libffi-dev amd64 3.2.1-4 [161 kB]
+Получено 918 kБ за 2с (349 kБ/c)
+Выбор ранее не выбранного пакета gawk.
+(Чтение базы данных … (Чтение базы данных … 5%(Чтение базы данных … 10%(Чтение базы данных … 15%(Чтение базы данных … 20%(Чтение базы данных … 25%(Чтение базы данных … 30%(Чтение базы данных … 35%(Чтение базы данных … 40%(Чтение базы данных … 45%(Чтение базы данных … 50%(Чтение базы данных … 55%(Чтение базы данных … 60%(Чтение базы данных … 65%(Чтение базы данных … 70%(Чтение базы данных … 75%(Чтение базы данных … 80%(Чтение базы данных … 85%(Чтение базы данных … 90%(Чтение базы данных … 95%(Чтение базы данных … 100%(Чтение базы данных … на данный момент установлено 183338 файлов и каталогов.)
+Подготовка к распаковке …/gawk_1%3a4.1.3+dfsg-0.1_amd64.deb …
+Распаковывается gawk (1:4.1.3+dfsg-0.1) …
+Выбор ранее не выбранного пакета libgdbm-dev.
+Подготовка к распаковке …/libgdbm-dev_1.8.3-13.1_amd64.deb …
+Распаковывается libgdbm-dev (1.8.3-13.1) …
+Выбор ранее не выбранного пакета libgmpxx4ldbl:amd64.
+Подготовка к распаковке …/libgmpxx4ldbl_2%3a6.1.0+dfsg-2_amd64.deb …
+Распаковывается libgmpxx4ldbl:amd64 (2:6.1.0+dfsg-2) …
+Выбор ранее не выбранного пакета libgmp-dev:amd64.
+Подготовка к распаковке …/libgmp-dev_2%3a6.1.0+dfsg-2_amd64.deb …
+Распаковывается libgmp-dev:amd64 (2:6.1.0+dfsg-2) …
+Выбор ранее не выбранного пакета libffi-dev:amd64.
+Подготовка к распаковке …/libffi-dev_3.2.1-4_amd64.deb …
+Распаковывается libffi-dev:amd64 (3.2.1-4) …
+Обрабатываются триггеры для man-db (2.7.5-1) …
+Обрабатываются триггеры для install-info (6.1.0.dfsg.1-5) …
+Обрабатываются триггеры для libc-bin (2.23-0ubuntu10) …
+Обрабатываются триггеры для doc-base (0.10.7) …
+Обработка 1 добавленный файл doc-base...
+Настраивается пакет gawk (1:4.1.3+dfsg-0.1) …
+Настраивается пакет libgdbm-dev (1.8.3-13.1) …
+Настраивается пакет libgmpxx4ldbl:amd64 (2:6.1.0+dfsg-2) …
+Настраивается пакет libgmp-dev:amd64 (2:6.1.0+dfsg-2) …
+Настраивается пакет libffi-dev:amd64 (3.2.1-4) …
+Обрабатываются триггеры для libc-bin (2.23-0ubuntu10) …

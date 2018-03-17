@@ -1,0 +1,3 @@
+---
+0.3.0 mimemagic:~> 0.3.2|checksum:786d39565e703aa34f50c40d7ec4eb1288e601e1eb2828eafeced1ed4568df11,ruby:~> 2.3
+0.3.1 mimemagic:~> 0.3.2|checksum:055f8e2a6677786c224f66e382d47c08e5d6f7bc028f009c779ae4b137e02354,ruby:>= 2.2

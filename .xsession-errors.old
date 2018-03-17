@@ -1,0 +1,22 @@
+openConnection: connect: Нет такого файла или каталога
+cannot connect to brltty at :0
+upstart: Процесс unity7 main завершен, повторный запуск
+upstart: Процесс upstart-dbus-session-bridge main (1439) завершен с кодом 1
+upstart: Процесс bamfdaemon main (1458) завершен с помощью сигнала TERM
+upstart: Процесс hud main (1861) завершен с помощью сигнала HUP
+upstart: Процесс unity-settings-daemon main (1863) завершен с помощью сигнала HUP
+upstart: Процесс gnome-session (Unity) main (1873) завершен с помощью сигнала HUP
+upstart: Процесс unity-panel-service main (1884) завершен с помощью сигнала HUP
+upstart: Процесс indicator-messages main (1926) завершен с помощью сигнала HUP
+upstart: Процесс indicator-bluetooth main (1927) завершен с помощью сигнала TERM
+upstart: Процесс indicator-power main (1928) завершен с помощью сигнала TERM
+upstart: Процесс indicator-datetime main (1932) завершен с помощью сигнала TERM
+upstart: Процесс indicator-keyboard main (1938) завершен с помощью сигнала HUP
+upstart: Процесс indicator-sound main (1941) завершен с помощью сигнала HUP
+upstart: Процесс indicator-printers main (1943) завершен с помощью сигнала TERM
+upstart: Процесс indicator-session main (1944) завершен с помощью сигнала TERM
+upstart: Процесс indicator-application main (1948) завершен с помощью сигнала TERM
+upstart: Процесс unity7 pre-start (12502) завершен с помощью сигнала TERM
+upstart: Процесс indicator-application pre-stop (12530) завершен с помощью сигнала TERM
+upstart: Процесс gnome-session (Unity) pre-stop (12531) завершен с помощью сигнала TERM
+upstart: Disconnected from notified D-Bus bus
